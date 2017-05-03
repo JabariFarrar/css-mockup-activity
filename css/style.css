@@ -40,6 +40,7 @@ html, body {
 html { display: flex;}
 body { width: 100%;}
 
+
 .sfooter {
 	display: flex;
 	flex-direction: column;
@@ -66,4 +67,13 @@ h1 {
 
 h2:first-child {
 	float: left;
+}
+
+h2:nth-child(0) {
+	float: left;
+}
+
+em{
+	color: #ffffff;
+	font-family: Arial;
 }
