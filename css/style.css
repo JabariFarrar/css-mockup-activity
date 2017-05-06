@@ -54,26 +54,54 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
-
-h1 {
-
-	color: #ffffff;
-	display: inline;
+header {
+	background-color: darkorange;
+}
+body{
 	font-family: Arial;
-	font-size:  4rem;
-	padding-top: 2rem;
-	margin: 1rem;
+
+}
+header h1, header em{
+	color: white;
+	display: inline-block;
+
+}
+header h1{
+	margin-right: 0.5em;
+	font-size: 3rem;
 }
 
-h2:first-child {
+.instructions {
+	border: darkorange solid 3px;
+	margin-top: 4rem;
+
+}
+
+.instructions h2, .instructions li {
+
+	color: darkorange;
+}
+
+.pull-left {
 	float: left;
+	margin-left: 20px;
+	/*margin: 0 0 0 1rem;*/
+	/*display: inline-block;*/
 }
 
-h2:nth-child(0) {
-	float: left;
+.pull-right{
+	float: right;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 20px;
 }
+.pull-right img{
+	height: 200px;
+	width: auto;
 
-em{
-	color: #ffffff;
-	font-family: Arial;
+}
+.pull-left img{
+
+	height: 200px;
+	width: auto;
 }
